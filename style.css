@@ -1,0 +1,131 @@
+/* Reset de estilos */
+* {
+  box-sizing: border-box;
+}
+
+/* Fondo y fuente */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #282b30;
+}
+
+/* Encabezados */
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 1rem 0;
+  text-align: center;
+  border-bottom: 1px solid #cb9cf2;
+  padding-bottom: 0.5rem;
+  color: #374a67;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 1rem 0;
+  padding: 0.5rem;
+  border-radius: 5px;
+  background-color: #616283;
+  color: #fff;
+}
+
+h3 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin: 1rem 0;
+  color: #374a67;
+}
+
+/* Enlaces */
+a {
+  color: #cb9cf2;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Botones */
+button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #cb9cf2;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #9e7b9b;
+}
+
+/* Iframes */
+iframe {
+  display: block;
+  margin: 0 auto;
+  border: 1px solid #616283;
+}
+
+/* Cajas de texto */
+input[type='text'],
+textarea {
+  padding: 0.5rem;
+  border: 1px solid #616283;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #374a67;
+}
+
+/* Tablas */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+th,
+td {
+  border: 1px solid #616283;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+th {
+  background-color: #9e7b9b;
+  color: #fff;
+}
+
+/* Listas */
+ul,
+ol {
+  margin: 1rem 0;
+  padding-left: 2rem;
+}
+
+li {
+  margin: 0.5rem 0;
+}
+
+/* Citas */
+blockquote {
+  margin: 1rem 0;
+  padding: 0.5rem;
+  border-left: 5px solid #cb9cf2;
+  color: #374a67;
+}
+
+/* Preformato */
+pre {
+  margin: 1rem 0;
+  padding: 0.5rem;
+  background-color: #f5f5f5;
+  border: 1px solid #616283;
+  border-radius: 5px;
+  white-space: pre-wrap;
+  font-size: 1rem;
+  color: #374a67;
+}
